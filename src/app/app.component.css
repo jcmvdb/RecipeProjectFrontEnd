@@ -14,3 +14,36 @@
   height: 35px;
   display: flex;
 }
+
+::ng-deep #contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+::ng-deep #contactForm input, textarea {
+  border-radius: 5px;
+}
+
+::ng-deep #contactForm input[type=submit] {
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+::ng-deep .contactSubmit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::ng-deep .row {
+  display: flex;
+  flex-direction: row;
+}
+
+::ng-deep .colm {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  /*width: 50%;*/
+}
