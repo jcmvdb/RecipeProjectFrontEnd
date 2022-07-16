@@ -1,0 +1,16 @@
+::ng-deep body {
+  margin: 0;
+  padding: 0;
+
+}
+
+::ng-deep .nav-item {
+  margin: 5px;
+  color: white;
+}
+
+::ng-deep .navbar-nav {
+  background-color: #444444;
+  height: 35px;
+  display: flex;
+}
