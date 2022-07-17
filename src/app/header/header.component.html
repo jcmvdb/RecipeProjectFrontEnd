@@ -1,10 +1,40 @@
 <!-- nav -->
 <link href="header.component.css" rel="stylesheet">
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-  <div class="navbar-nav">
-    <a class="nav-item nav-link" routerLink="/">Home</a>
-    <a class="nav-item nav-link" routerLink="/login">Login</a>
-    <a class="nav-item nav-link" routerLink="/register">Register</a>
-    <a class="nav-item nav-link" routerLink="/contact">Contact</a>
+<div class="navbar">
+  <div class="test1">
+    <a href="/home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+      <button class="dropbtn" routerLink="/category">category
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a routerLink="#">Ontbijt</a>
+        <a routerLink="#">Tussendoortjes</a>
+        <a routerLink="#">Lunch</a>
+        <a routerLink="#">Voorgerechten</a>
+        <a routerLink="#">Hoofdgerechten</a>
+        <a routerLink="#">Bijgerechten</a>
+        <a routerLink="#">Nagerechten</a>
+        <a routerLink="#">Bakrecepten</a>
+        <a routerLink="#">Hapjes & snacks</a>
+        <a routerLink="#">BBQ</a>
+        <a routerLink="#">Salade</a>
+        <a routerLink="#">Soepen</a>
+        <a routerLink="#">Sauzen</a>
+        <a routerLink="#">Drankjes</a>
+      </div>
+    </div>
   </div>
-</nav>
+  <div class="test2">
+    <div class="dropdown2">
+      <button class="dropbtn2" routerLink="/contact">Profile
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content2">
+        <a routerLink="/login">Login</a>
+        <a routerLink="/register">Register</a>
+      </div>
+    </div>
+  </div>
+</div>
