@@ -8,6 +8,7 @@ import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact';
+import { CategoryComponent } from './category/category.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { ContactComponent } from './contact';
     LoginComponent,
     RegisterComponent,
     HeaderComponent,
-    ContactComponent
+    ContactComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
