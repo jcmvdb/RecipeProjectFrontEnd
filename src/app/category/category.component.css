@@ -26,13 +26,13 @@
   cursor: pointer;
 }
 
+.parent div p {
+  cursor: pointer;
+}
+
 .parent div p, .parent div h1, .parent div h2, .parent div h3, .parent div h4 {
   margin-left: 5px;
   margin-top: -35px;
   color: white;
   font-family: Raleway,Helvetica,sans-serif;
-}
-
-.parent {
-  /*margin-top: 2rem;*/
 }
