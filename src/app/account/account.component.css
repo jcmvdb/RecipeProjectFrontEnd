@@ -1,0 +1,50 @@
+.topbar a {
+  float: right;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.sidebar {
+  height: 100%;
+}
+
+.sidebar a {
+  margin-left: 10px;
+  display: block;
+  color: black;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.changeableDiv {
+  /*text-align: center*/
+}
+
+.notShow {
+  display: none;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.yellow {
+  background-color: lightyellow;
+}
+
+.red {
+  background-color: lightcoral;
+}

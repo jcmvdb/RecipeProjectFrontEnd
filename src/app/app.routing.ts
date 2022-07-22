@@ -4,7 +4,8 @@ import { ContactComponent } from './contact';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
-import { CategoryComponent } from './category'; 
+import { CategoryComponent } from './category';
+import { AccountComponent } from './account'; 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path : 'contact', component: ContactComponent},
   { path : 'category', component: CategoryComponent},
+  { path : 'account', component: AccountComponent},
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' }

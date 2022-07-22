@@ -9,6 +9,7 @@ import { RegisterComponent } from './register';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact';
 import { CategoryComponent } from './category/category.component';
+import { AccountComponent } from './account/account.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { CategoryComponent } from './category/category.component';
     RegisterComponent,
     HeaderComponent,
     ContactComponent,
-    CategoryComponent
+    CategoryComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
