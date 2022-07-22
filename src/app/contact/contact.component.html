@@ -1,28 +1,30 @@
-<h1>Contact page</h1>
-<form>
+<div id="wrapper">
+  <h1>Contact page</h1>
+  <form>
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="firstName" placeholder="John Doe"><br>
     <label for="email">Email : </label><br>
     <input type="email" id="email" name="email" placeholder="recipeproject@recipeproject.com"><br>
     <label for="message">Message :</label><br>
     <input type="text" id="message" name="message">
-</form>
+  </form>
 
 
-<form method="post" action="/contactInformation/" id="contactForm">
+  <form method="post" action="/contactInformation/" id="contactForm">
     <div class="row">
-        <div class="colm">
-            <label for="name">Naam</label><br>
-            <input class="br-5" id="contact-name" type="text" name="contact-name" required><br>
-        </div>
-        <div class="colm">
-            <label for="email">Email</label><br>
-            <input class="br-5" id="contact-email" type="email" name="contact-email" required><br>
-        </div>
+      <div class="colm">
+        <label for="name">Naam</label><br>
+        <input class="br-5" id="contact-name" type="text" name="contact-name" required><br>
+      </div>
+      <div class="colm">
+        <label for="email">Email</label><br>
+        <input class="br-5" id="contact-email" type="email" name="contact-email" required><br>
+      </div>
     </div>
     <label for="message">Bericht</label>
     <textarea id="message" type="text" name="message" required></textarea><br>
     <div class="contactSubmit">
-        <input type="submit" value="submit" id="submit">
+      <input type="submit" value="submit" id="submit">
     </div>
-</form>
+  </form>
+</div>
